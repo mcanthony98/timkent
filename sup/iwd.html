@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+      var counter = 1;
+      $("h1").hide();
+      //$("#p1").fadeIn(3000).fadeOut(4000);
+      function showText(no){
+        if(no != 27){
+            $("#p"+no).fadeIn(2000);
+            $("#p"+no).fadeOut(3000);
+        }else{
+            $("#p"+no).fadeIn(1000);
+        }
+      }
+      showText(counter);
+      setInterval (function () {
+        counter++;
+        showText(counter);
+    }, 5000);
+
+});
+</script>
+</head>
+<body style="background-color: black; color: bisque;text-align: center;font-weight:bold;">
+
+<div class="center">    
+<h1 style="font-weight: 400;" id="p1">Hey Love!&#128525; </h1>
+<h1 style="font-weight: 400;" id="p2">How are You?</h1>
+<h1 style="font-weight: 400;" id="p3">It's Me! Again!&#128514;</h1>
+<h1 style="font-weight: 400;" id="p4">I know I'm Late!&#128531;</h1>
+<h1 style="font-weight: 400;" id="p5">But good things take time!&#128521;</h1>
+<h1 style="font-weight: 400;" id="p6">And I needed to be different!&#128541;</h1>
+<h1 style="font-weight: 400;" id="p7">Thanks for being 'Patient'! &#128544;</h1>
+<h1 style="font-weight: 400;" id="p8">Anyway!! &#128514;</h1>
+<h1 style="font-weight: 400;" id="p9">Thanks for being the woman of my dreams! &#128524;</h1>
+<h1 style="font-weight: 400;" id="p10">And on this day! &#128519;</h1>
+<h1 style="font-weight: 400;" id="p11">I want to say... &#128539;</h1>
+<h1 style="font-weight: 400;" id="p12">That... </h1>
+<h1 style="font-weight: 400;" id="p13">I (BEAST &#128520;),</h1>
+<h1 style="font-weight: 400;" id="p14">Would like to... </h1>
+<h1 style="font-weight: 400;" id="p15"><small>(kwanza I miss your phat A$$!!)</small>&#128521;&#128517;</h1>
+<h1 style="font-weight: 400;" id="p16">I would like to wish you...</h1>
+<h1 style="font-weight: 400;" id="p17">A Happy International Women's Day! &#129321;</h1>
+<h1 style="font-weight: 400;" id="p18">You are amazing! &#129321;</h1>
+<h1 style="font-weight: 400;" id="p19">You are Gorgeouzzz!! &#129321;</h1>
+<h1 style="font-weight: 400;" id="p20">Na Umeivaaa Mammiii!! &#129321;</h1>
+<h1 style="font-weight: 400;" id="p21">Here is your gift for the day... &#129321;</h1>
+<h1 style="font-weight: 400;" id="p22">From Your One and Only!</h1>
+<h1 style="font-weight: 400;" id="p23">Beast &#128520;</h1>
+<h1 style="font-weight: 400;" id="p24">AKA  Thoguo </h1>
+<h1 style="font-weight: 400;" id="p25">AKA  DZADDDY!!! &#128527;</h1>
+<h1 style="font-weight: 400;" id="p26">HAVE A NICE ONE!<br>ENJOY!!<br>&#128536;</h1>
+<h1 style="font-weight: 400;" id="p27"><img src="iwd.png" width="350px" style="margin-top:40px;"> </h1>
+
+</div>
+
+</body>
+</html>

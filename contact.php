@@ -12,7 +12,7 @@ include "includes/cart.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Molla - Bootstrap eCommerce Template</title>
+    <title>Contact Us - Timkent Spares</title>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
@@ -41,13 +41,13 @@ include "includes/cart.php";
         <main class="main">
         	<div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
         		<div class="container">
-        			<h1 class="page-title">Contact us 2<span>Pages</span></h1>
+        			<h1 class="page-title">Contact us 2<span>Timkent</span></h1>
         		</div><!-- End .container -->
         	</div><!-- End .page-header -->
             <nav aria-label="breadcrumb" class="breadcrumb-nav border-0 mb-0">
                 <div class="container">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Contact us</li>
                     </ol>
                 </div><!-- End .container -->
@@ -61,7 +61,7 @@ include "includes/cart.php";
                 			<div class="contact-box text-center">
         						<h3>Office</h3>
 
-        						<address>1 New York Plaza, New York, <br>NY 10004, USA</address>
+        						<address>JKUAT Main Gate, Juja, <br>Kiambu Kenya</address>
         					</div><!-- End .contact-box -->
                 		</div><!-- End .col-md-4 -->
 
@@ -69,8 +69,8 @@ include "includes/cart.php";
                 			<div class="contact-box text-center">
         						<h3>Start a Conversation</h3>
 
-        						<div><a href="mailto:#">info@Molla.com</a></div>
-        						<div><a href="tel:#">+1 987-876-6543</a>, <a href="tel:#">+1 987-976-1234</a></div>
+        						<div><a href="mailto:#">kennedytitus3@gmail.com</a></div>
+        						<div><a href="tel:#">+254 704 135100</a>, <a href="tel:#">+254 704 135100</a></div>
         					</div><!-- End .contact-box -->
                 		</div><!-- End .col-md-4 -->
 
@@ -79,11 +79,11 @@ include "includes/cart.php";
         						<h3>Social</h3>
 
         						<div class="social-icons social-icons-color justify-content-center">
-			    					<a href="#" class="social-icon social-facebook" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
-			    					<a href="#" class="social-icon social-twitter" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>
-			    					<a href="#" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
-			    					<a href="#" class="social-icon social-youtube" title="Youtube" target="_blank"><i class="icon-youtube"></i></a>
-			    					<a href="#" class="social-icon social-pinterest" title="Pinterest" target="_blank"><i class="icon-pinterest"></i></a>
+			    					<a href="https://www.facebook.com/titus.kennedy.58" class="social-icon social-facebook" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
+			    					<a href="https://www.facebook.com/titus.kennedy.58" class="social-icon social-twitter" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>
+			    					<a href="https://www.facebook.com/titus.kennedy.58" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
+			    					<a href="https://www.facebook.com/titus.kennedy.58" class="social-icon social-youtube" title="Youtube" target="_blank"><i class="icon-youtube"></i></a>
+			    					<a href="https://www.facebook.com/titus.kennedy.58" class="social-icon social-pinterest" title="Pinterest" target="_blank"><i class="icon-pinterest"></i></a>
 			    				</div><!-- End .soial-icons -->
         					</div><!-- End .contact-box -->
                 		</div><!-- End .col-md-4 -->
@@ -95,9 +95,9 @@ include "includes/cart.php";
                 			<div class="text-center">
                 			<h2 class="title mb-1">Get In Touch</h2><!-- End .title mb-2 -->
                 			<p class="lead text-primary">
-                				We collaborate with ambitious brands and people; we’d love to build something great together.
+                				Our 24/7 available customer support is always ready to serve you.
                 			</p><!-- End .lead text-primary -->
-                			<p class="mb-3">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                			<p class="mb-3"></p>
                 			</div><!-- End .text-center -->
 
                 			<form action="#" class="contact-form mb-2">

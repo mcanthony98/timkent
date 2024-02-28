@@ -23,6 +23,9 @@
                             <a href="products.php" class="">Our Products</a>
                         </li>
                         <li class="">
+                            <a href="blogs.php" class="">Blogs</a>
+                        </li>
+                        <li class="">
                             <a href="contact.php" class="">Contact Us</a>
                         </li>
 
