@@ -40,30 +40,31 @@ $quickordurl .= ">".$prow['name']." -SKU".$prow['product_id'].". ";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title><?php echo $prow['name'];?> - Timkent Spareparts</title>
-    <meta name="keywords" content="HTML5 Template">
-    <meta name="description" content="Molla - Bootstrap eCommerce Template">
-    <meta name="author" content="p-themes">
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/icons/site.html">
-    <link rel="mask-icon" href="assets/images/icons/safari-pinned-tab.svg" color="#666666">
-    <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="Molla">
-    <meta name="application-name" content="Molla">
-    <meta name="msapplication-TileColor" content="#cc9966">
-    <meta name="msapplication-config" content="assets/images/icons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <!-- Plugins CSS File -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="assets/css/plugins/magnific-popup/magnific-popup.css">
-    <!-- Main CSS File -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/plugins/nouislider/nouislider.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <title><?php echo $prow['name'];?> | Timkent Spares</title>
+    <meta name="keywords" content="timkent, mobile phone screen, screen replacement, broken screen, screen replacement service, <?php echo $prow['name'];?>, <?php echo $prow['category_name'];?>">
+    <meta name="description" content="Get your premium quality <?php echo $prow['name'];?> for your phone. This <?php echo $prow['category_name'];?> is ideal for repairing or replacing your broken, scratched mobile phone.">
+    <meta name="author" content="Ganiam Tech">    
+
+
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
+<link rel="mask-icon" href="assets/images/icons/safari-pinned-tab.svg" color="#666666">
+<link rel="shortcut icon" href="assets/images/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#cc9966">
+<meta name="apple-mobile-web-app-title" content="Timkent Spares"> <!-- Add your web app title -->
+<meta name="application-name" content="Timkent Spares"> <!-- Add your application name -->
+<meta name="theme-color" content="#ffffff"> <!-- Add your theme color -->
+<link rel="stylesheet" href="assets/vendor/line-awesome/line-awesome/line-awesome/css/line-awesome.min.css">
+<!-- Plugins CSS File -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/plugins/owl-carousel/owl.carousel.css">
+<link rel="stylesheet" href="assets/css/plugins/magnific-popup/magnific-popup.css">
+<!-- Main CSS File -->
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/plugins/nouislider/nouislider.css">
+<link rel="stylesheet" href="assets/css/demos/demo-11.css">
 </head>
 
 <body>
@@ -74,7 +75,7 @@ $quickordurl .= ">".$prow['name']." -SKU".$prow['product_id'].". ";
             <nav aria-label="breadcrumb" class="breadcrumb-nav border-0 mb-0">
                 <div class="container d-flex align-items-center">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item"><a href="products.php">Products</a></li>
                         <li class="breadcrumb-item"><a href="products.php?category=<?php echo $prow['category_id'];?>"><?php echo $prow['category_name'];?></a></li>
                         <li class="breadcrumb-item active" aria-current="page"><?php echo $prow['name'];?></li>
@@ -91,7 +92,7 @@ $quickordurl .= ">".$prow['name']." -SKU".$prow['product_id'].". ";
                                 <div class="product-gallery product-gallery-vertical">
                                     <div class="row">
                                         <figure class="product-main-image">
-                                            <img id="product-zoom" src="products/<?php echo $mainimg;?>" data-zoom-image="products/<?php echo $mainimg;?>" alt="product image">
+                                            <img id="product-zoom" src="products/<?php echo $mainimg;?>" data-zoom-image="products/<?php echo $mainimg;?>" alt="image of <?php echo $prow['name'];?> ">
 
                                             <a href="#" id="btn-product-gallery" class="btn-product-gallery">
                                                 <i class="icon-arrows"></i>
@@ -100,12 +101,12 @@ $quickordurl .= ">".$prow['name']." -SKU".$prow['product_id'].". ";
 
                                         <div id="product-zoom-gallery" class="product-image-gallery">
                                             <a class="product-gallery-item active" href="#" data-image="products/<?php echo $mainimg;?>" data-zoom-image="products/<?php echo $mainimg;?>">
-                                                <img src="products/<?php echo $mainimg;?>" alt="product side">
+                                                <img src="products/<?php echo $mainimg;?>" alt="side image of <?php echo $prow['name'];?> ">
                                             </a>
 
                                             <?php while($otherimgrow = $otherimgres->fetch_assoc()){?>
                                             <a class="product-gallery-item" href="#" data-image="products/<?php echo $otherimgrow['image'];?>" data-zoom-image="products/<?php echo $otherimgrow['image'];?>">
-                                                <img src="products/<?php echo $otherimgrow['image'];?>" alt="product cross">
+                                                <img src="products/<?php echo $otherimgrow['image'];?>" alt="another side image of <?php echo $prow['name'];?> ">
                                             </a>
                                             <?php }?>
 
@@ -140,10 +141,10 @@ $quickordurl .= ">".$prow['name']." -SKU".$prow['product_id'].". ";
 
 
                                     <div class="product-details-action" id="desc">
-                                        <input type="submit" class="btn-product btn-cart" onclick="this.form.submit();" value="add to cart" />
+                                        <input type="submit" class="btn-product btn-cart" onclick="this.form.submit();" value="Add to Cart" />
                                                   
                                         <div class="details-action-wrapper">
-                                        <a type="button" data-toggle="modal" data-target="#quickorder" href="#" class="btn btn-outline-success btn-block">Quick Order</a>
+                                        <a type="button" data-toggle="modal" data-target="#quickorder" class="btn btn-success btn-block text-white">Order Now Via Whatsapp!</a>
                                         </div><!-- End .details-action-wrapper -->
                                     </div><!-- End .product-details-action -->
 
@@ -225,8 +226,7 @@ $quickordurl .= ">".$prow['name']." -SKU".$prow['product_id'].". ";
                     <input type="hidden" name="addcart" value="<?php echo $pid;?>">
 
                     <div class="product-details-action">
-                        <input type="submit" class="btn-product btn-cart" value="add to cart" />
-                        <a href="#" type="button" data-toggle="modal" data-target="#quickorder" class="btn-product btn-success-outline"><span>Quick Order</span></a>
+                        <a href="#" type="button" data-toggle="modal" data-target="#quickorder" class="btn btn-success"><span>Order Now Via Whatsapp</span></a>
                     </div><!-- End .product-details-action -->
                 </div><!-- End .col-6 -->
             </div><!-- End .row -->

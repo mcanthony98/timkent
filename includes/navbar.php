@@ -7,8 +7,8 @@
                     <i class="icon-bars"></i>
                 </button>
                 
-                <a href="index.html" class="">
-                    <img src="assets\images\timkent\logo.png"  class="img-fluid" alt="Timkent Logo" width="112" height="5">
+                <a href="index.php" class="">
+                    <img src="assets\images\timkent\logo.png"  class="img-fluid" alt="Timkent Mobile Spares Logo" width="130" height="5">
                 </a>
             </div><!-- End .header-left -->
 

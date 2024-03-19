@@ -12,25 +12,25 @@ $pres = $pdo->query($pqry);
 
 <!-- molla/index-11.html  22 Nov 2019 09:58:23 GMT -->
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Home - Timkent Spares</title>
-    <meta name="keywords" content="HTML5 Template">
-    <meta name="description" content="Molla - Bootstrap eCommerce Template">
-    <meta name="author" content="p-themes">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Mobile Phone Parts | Timkent Spares</title>
+<meta name="keywords" content="timkent, samsung mobile phone parts, iphone parts, screen replacement, mobile phone parts, Umidigi screen, infinix screen, mobile phone screen replacement, mobile phone screen replacement, itel screen, techno phone, broken screen replacement">
+<meta name="description" content="We are a leading dealer in mobile phone and laptop spareparts and accessories. We offer the worldclass quality spareparts and services. Shop with us today.">
+<meta name="author" content="Ganiam Tech">    
+
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/icons/site.html">
     <link rel="mask-icon" href="assets/images/icons/safari-pinned-tab.svg" color="#666666">
     <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="Molla">
-    <meta name="application-name" content="Molla">
     <meta name="msapplication-TileColor" content="#cc9966">
-    <meta name="msapplication-config" content="assets/images/icons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-title" content="Timkent Spares"> <!-- Add your web app title -->
+    <meta name="application-name" content="Timkent Spares"> <!-- Add your application name -->
+    <meta name="theme-color" content="#ffffff"> <!-- Add your theme color -->
     <link rel="stylesheet" href="assets/vendor/line-awesome/line-awesome/line-awesome/css/line-awesome.min.css">
     <!-- Plugins CSS File -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -60,13 +60,13 @@ $pres = $pdo->query($pqry);
                             }
                         }
                     }'>
-                    <div class="intro-slide" style="background-image: url(assets/images/timkent/banner9.png);">
+                    <div class="intro-slide" style="background-image: url(assets/images/timkent/banner7.png);">
                         <div class="container intro-content">
-                            <h3 class="intro-subtitle text-primary">TOP PICKS</h3><!-- End .h3 intro-subtitle -->
-                            <h1 class="intro-title">Top Quality <br>Mobile Spareparts</h1><!-- End .intro-title -->
+                            <h3 class="intro-subtitle text-primary">PREMIUM QUALITY</h3><!-- End .h3 intro-subtitle -->
+                            <h1 class="intro-title">Top Quality <br>Mobile Spare Parts</h1><!-- End .intro-title -->
 
                             <a href="products.php" class="btn btn-outline-primary-2">
-                                <span>DISCOVER MORE</span>
+                                <span>CLICK TO SHOP NOW!</span>
                                 <i class="icon-long-arrow-right"></i>
                             </a>
                         </div><!-- End .intro-content -->
@@ -77,8 +77,8 @@ $pres = $pdo->query($pqry);
                             <h3 class="intro-subtitle text-primary">all at 50% off</h3><!-- End .h3 intro-subtitle -->
                             <h1 class="intro-title text-white">Replacement Screens<br>For all Mobile Phones</h1><!-- End .intro-title -->
 
-                            <a href="category.html" class="btn btn-outline-primary-2 min-width-sm">
-                                <span>SHOP NOW</span>
+                            <a href="products.php" class="btn btn-outline-primary-2 min-width-sm">
+                                <span>VIEW OUR PRODUCTS</span>
                                 <i class="icon-long-arrow-right"></i>
                             </a>
                         </div><!-- End .intro-content -->
@@ -91,162 +91,12 @@ $pres = $pdo->query($pqry);
             <div class="container">
                 <div class="toolbox toolbox-filter">
                     <div class="toolbox-left">
-                        <span class="h3">Featured Products</span>
+                        <span class="h3 mb-2">Featured Products</span>
 
                     </div><!-- End .toolbox-left -->
-                    <div class="toolbox-right">
-                        <!--<ul class="nav-filter product-filter">
-                            <li class="active"><a href="#" data-filter="*">All</a></li>
-                            <li><a href="#" data-filter=".furniture">Furniture</a></li>
-                            <li><a href="#" data-filter=".lighting">Lighting</a></li>
-                            <li><a href="#" data-filter=".accessories">Accessories</a></li>
-                            <li><a href="#" data-filter=".sale">Sale</a></li>
-                        </ul>-->
-                    </div><!-- End .toolbox-right -->
+                 
                 </div><!-- End .filter-toolbox -->
 
-                <div class="widget-filter-area" id="product-filter-area">
-                    <a href="#" class="widget-filter-clear">Clean All</a>
-
-                    <div class="filter-area-wrapper">
-                        <div class="row">
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="widget">
-                                    <h3 class="widget-title">
-                                        Category:
-                                    </h3><!-- End .widget-title -->
-
-                                    <div class="filter-items filter-items-count">
-                                        <div class="filter-item">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="cat-1">
-                                                <label class="custom-control-label" for="cat-1">All</label>
-                                            </div><!-- End .custom-checkbox -->
-                                            <span class="item-count">24</span>
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="cat-2">
-                                                <label class="custom-control-label" for="cat-2">Furniture</label>
-                                            </div><!-- End .custom-checkbox -->
-                                            <span class="item-count">3</span>
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="cat-3">
-                                                <label class="custom-control-label" for="cat-3">Lighting</label>
-                                            </div><!-- End .custom-checkbox -->
-                                            <span class="item-count">2</span>
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="cat-4">
-                                                <label class="custom-control-label" for="cat-4">Accessories</label>
-                                            </div><!-- End .custom-checkbox -->
-                                            <span class="item-count">4</span>
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="cat-5">
-                                                <label class="custom-control-label" for="cat-5">Sale</label>
-                                            </div><!-- End .custom-checkbox -->
-                                            <span class="item-count">2</span>
-                                        </div><!-- End .filter-item -->
-                                    </div><!-- End .filter-items -->
-                                </div><!-- End .widget -->
-                            </div><!-- End .col-sm-6 col-lg-3 -->
-
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="widget">
-                                    <h3 class="widget-title">
-                                        Sort by:
-                                    </h3><!-- End .widget-title -->
-
-                                    <div class="filter-items">
-                                        <div class="filter-item">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="radio" class="custom-control-input" checked id="sort-1" name="sortby">
-                                                <label class="custom-control-label" for="sort-1">Default</label>
-                                            </div><!-- End .custom-checkbox -->
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="radio" class="custom-control-input" id="sort-2" name="sortby">
-                                                <label class="custom-control-label" for="sort-2">Popularity</label>
-                                            </div><!-- End .custom-checkbox -->
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="radio" class="custom-control-input" id="sort-3" name="sortby">
-                                                <label class="custom-control-label" for="sort-3">Average Rating</label>
-                                            </div><!-- End .custom-checkbox -->
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="radio" class="custom-control-input" id="sort-4" name="sortby">
-                                                <label class="custom-control-label" for="sort-4">Newness</label>
-                                            </div><!-- End .custom-checkbox -->
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="radio" class="custom-control-input" id="sort-5" name="sortby">
-                                                <label class="custom-control-label" for="sort-5">Price: Low to High</label>
-                                            </div><!-- End .custom-checkbox -->
-                                        </div><!-- End .filter-item -->
-
-                                        <div class="filter-item">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="radio" class="custom-control-input" id="sort-6" name="sortby">
-                                                <label class="custom-control-label" for="sort-6">Price: High to Low</label>
-                                            </div><!-- End .custom-checkbox -->
-                                        </div><!-- End .filter-item -->
-                                    </div><!-- End .filter-items -->
-                                </div><!-- End .widget -->
-                            </div><!-- End .col-sm-6 col-lg-3 -->
-
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="widget">
-                                    <h3 class="widget-title">
-                                        Colour:
-                                    </h3><!-- End .widget-title -->
-
-                                    <div class="filter-colors filter-colors-vertical">
-                                        <a href="#" style="background: #b87145;"><span>Brown</span></a>
-                                        <a href="#" style="background: #f0c04a;"><span>Yellow</span></a>
-                                        <a href="#" style="background: #333333;"><span>Black</span></a>
-                                        <a href="#" class="selected" style="background: #cc3333;"><span>Red</span></a>
-                                        <a href="#" style="background: #ebebeb;"><span>White</span></a>
-                                    </div><!-- End .filter-colors -->
-                                </div><!-- End .widget -->
-                            </div><!-- End .col-sm-6 col-lg-3 -->
-
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="widget">
-                                    <h3 class="widget-title">
-                                        Price:
-                                    </h3><!-- End .widget-title -->
-
-                                    <div class="filter-price">
-                                        <div class="filter-price-text">
-                                            Price Range:
-                                            <span id="filter-price-range"></span>
-                                        </div><!-- End .filter-price-text -->
-
-                                        <div id="price-slider"></div><!-- End #price-slider -->
-                                    </div><!-- End .filter-price -->
-                                </div><!-- End .widget -->
-                            </div><!-- End .col-sm-6 col-lg-3 -->
-                        </div><!-- End .row -->
-                    </div><!-- End .filter-area-wrapper -->
-                </div><!-- End #product-filter-area.widget-filter-area -->
                 
                 <div class="products-container" data-layout="fitRows">
 
@@ -269,7 +119,7 @@ $pres = $pdo->query($pqry);
                                 <span class="product-label">Out of stock</span>
                                 <?php } ?>
                                 <a href="product.php?product=<?php echo $prow['slug'];?>&pid=<?php echo $prow['product_id'];?>">
-                                    <img src="products/<?php echo $img;?>" alt="<?php echo $prow['slug'];?>" class="product-image">
+                                    <img src="products/<?php echo $img;?>" alt="<?php echo $prow['name'];?>" class="product-image">
                                 </a>
                             </figure><!-- End .product-media -->
 
@@ -297,7 +147,7 @@ $pres = $pdo->query($pqry);
             </div><!-- End .container -->
 
             <div class="more-container text-center mt-0 mb-7">
-                <a href="category.html" class="btn btn-outline-dark-3 btn-more"><span>more products</span><i class="la la-refresh"></i></a>
+                <a href="products.php" class="btn btn-outline-dark-3 btn-more"><span>more products</span><i class="la la-refresh"></i></a>
             </div><!-- End .more-container -->
 
             <div class="container">
