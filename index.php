@@ -60,12 +60,12 @@ $pres = $pdo->query($pqry);
                             }
                         }
                     }'>
-                    <div class="intro-slide" style="background-image: url(assets/images/timkent/banner7.png);">
+                    <div class="intro-slide" style="background-image: url(assets/images/timkent/banner11.jpg);">
                         <div class="container intro-content">
-                            <h3 class="intro-subtitle text-primary">PREMIUM QUALITY</h3><!-- End .h3 intro-subtitle -->
-                            <h1 class="intro-title">Top Quality <br>Mobile Spare Parts</h1><!-- End .intro-title -->
+                            <h3 class="intro-subtitle text-white"><span class="bg-secondary p-2">PREMIUM QUALITY</span></h3><!-- End .h3 intro-subtitle -->
+                            <h1 class="intro-title text-white" style="font-weight: bold;">Top Quality <br>Mobile Spare Parts</h1><!-- End .intro-title -->
 
-                            <a href="products.php" class="btn btn-outline-primary-2">
+                            <a href="products.php" class="btn btn-primary mt-2">
                                 <span>CLICK TO SHOP NOW!</span>
                                 <i class="icon-long-arrow-right"></i>
                             </a>
